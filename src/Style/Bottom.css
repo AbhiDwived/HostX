@@ -1,0 +1,262 @@
+ h5,
+ h6 {
+   font-weight: bold;
+   color: white;
+ }
+
+ .background p {
+   margin: 0;
+   padding: 0;
+   color: rgba(195, 192, 192, 0.883);
+ }
+
+
+
+ .background {
+   background-color: #000000;
+   /* Change this to the desired dark color */
+   color: #fff;
+   /* Change this to the desired text color */
+   padding: 60px;
+ }
+
+ /* .Button-container{
+    color: #fff;
+  } */
+
+ .btn-primary {
+   background-color: #427b36;
+   ;
+   color: #fff;
+   border: #224d18;
+ }
+
+ .btn-primary:hover {
+   background-color: #f8f5f3;
+   color: #000000;
+ }
+
+ /* .New-button{
+  color: #fff;
+  margin: 0;
+  padding: 5px 75px;
+  background-color: #202736;
+}
+
+.New-button:hover {
+  background-color: #f8f5f3;
+  color: #000000;
+}
+
+.card-container p {
+  color: white; 
+} */
+
+ .social-link {
+   color: #fff;
+ }
+
+ .list-unstyled li {
+   margin-bottom: 10px;
+   color: rgba(195, 192, 192, 0.883);
+   font-size: 16px;
+ }
+
+ .list-unstyled h5 {
+   margin-bottom: 5px;
+ }
+
+ .rounded-box {
+   border-radius: 10px;
+   /* Set the desired border-radius value */
+   border: 1px solid #ddd;
+   /* Add border for better visibility */
+   background-color: rgb(44, 40, 145);
+   /* Set the background color */
+   overflow: hidden;
+   /* Ensure content doesn't overflow rounded corners */
+ }
+
+ /* Additional styling for the button */
+ .rounded-box button {
+   padding: 10px 20px;
+   /* Adjust spacing as needed */
+ }
+
+
+ .bottom-link {
+   color: rgba(195, 192, 192, 0.883);
+   text-decoration: none;
+ }
+
+ .bottom-link.active {
+   color: #00f;
+ }
+
+ .dropdown-symbol {
+   display: inline-block;
+   width: 24px;
+   /* Adjust the size as needed */
+   height: 24px;
+   /* Adjust the size as needed */
+   border-radius: 50%;
+   background-color: #fff;
+   /* Adjust the color as needed */
+   color: #000;
+   /* Adjust the color as needed */
+   text-align: center;
+   line-height: 24px;
+   /* Adjust the size as needed */
+   margin-left: 30px;
+   /* Adjust the spacing as needed */
+   cursor: pointer;
+ }
+
+ .list-inline-item {
+   margin-top: 0px;
+   padding-top: 0px;
+   font-weight: bold;
+ }
+
+ .Small-Text {
+   font-size: 12px;
+ }
+
+ /* Add your regular styles here */
+
+ @media (max-width: 600px) {
+   .col-md-2 {
+     width: 100%;
+   }
+
+   .list-unstyled {
+     display: none;
+   }
+
+   .list-unstyled.show-dropdown {
+     display: block;
+   }
+
+   /* .accordion-button.align-items-end {
+    flex-direction: row-reverse;
+  }
+  
+  .accordion-button.align-items-end > .d-flex {
+    width: 100%;
+  } */
+ }
+
+ /* Styles for larger screens (min-width: 601px) */
+ @media (min-width: 601px) {
+   .col-md-2 {
+     width: 200px;
+   }
+
+   .dropdown h5::after {
+     content: none;
+   }
+
+   .dropdown h5::before {
+     content: '-';
+   }
+
+   .list-unstyled {
+     display: block !important;
+   }
+ }
+
+
+
+ @media (max-width: 576px) {
+
+   /* Small devices (phones) */
+   .btn-size {
+     margin-left: 0;
+     /* Adjust margin for smaller screens */
+     padding: 10px 20px;
+     /* Adjust padding for smaller screens */
+   }
+
+   .custom-button {
+     padding: 5px 30px;
+     /* Adjust padding for smaller screens */
+   }
+
+   .payment-methods {
+     margin-left: 0;
+     /* Adjust margin for smaller screens */
+   }
+
+   .background {
+     padding: 30px 10px;
+     /* Top: 20px, Right: 10px, Bottom: 30px, Left: 15px */
+   }
+
+   .icon {
+     padding-left: 0px;
+   }
+ }
+
+ @media (min-width: 576px) and (max-width: 768px) {
+   /* Medium devices (tablets) */
+
+   .btn-size {
+     margin-left: 20px;
+     /* Adjust margin for medium screens */
+     padding: 10px 40px;
+     /* Adjust padding for medium screens */
+   }
+
+   .custom-button {
+     padding: 5px 60px;
+     /* Adjust padding for medium screens */
+   }
+ }
+
+ @media (min-width: 768px) and (max-width: 992px) {
+   /* Large devices (desktops) */
+
+   .btn-size {
+     margin-left: 40px;
+     /* Adjust margin for large screens */
+   }
+
+   .custom-button {
+     padding: 5px 60px;
+     /* Adjust padding for large screens */
+   }
+ }
+
+ @media (min-width: 992px) and (max-width: 1200px) {
+   /* Extra large devices (large desktops) */
+
+
+   .btn-size {
+     margin-left: 80px;
+     /* Adjust margin for extra-large screens */
+   }
+
+   .custom-button {
+     padding: 5px 80px;
+     /* Adjust padding for extra-large screens */
+   }
+ }
+
+ @media (min-width: 1500px) {
+  .container {
+    max-width: 1500px; /* Adjust the max-width as needed */
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66667%; /* 1/6 of the container width */
+  }
+}
+
+ @media only screen and (min-width: 601px) and (max-width: 2000px) {
+   .dropdown-symbol {
+     display: none;
+     /* Hide the symbol when screen size is between 601px and 1200px */
+
+   }
+ }

@@ -1,0 +1,88 @@
+.navbar {
+  background-color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  border-bottom: 1px solid #224d18;
+}
+
+.navbar-logo {
+  max-height: 50px;
+  width: auto;
+  display: flex;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 100px;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+/* .navbar-brand h2 {
+  margin-left: 370px;
+} */
+
+/* .dropdown-menu {
+  background-color: #fff;
+} */
+
+/* .navbar-text {
+  margin-right: 225px;
+  
+} */
+
+/* .fa-bars {
+  margin-left: 10px;
+  margin-right: 10px;
+  
+} */
+
+/* Responsive Media Queries */
+
+/* Small Devices (Phones) */
+@media only screen and (max-width: 480px) {
+  .navbar-logo {
+    margin-left: 10px;
+    /* Adjusted margin for tablets */
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-brand h2,
+  .navbar-nav .nav-item,
+  .navbar-text,
+  .fa-bars {
+    margin-left: 0;
+    /* Remove margins for better stacking in mobile view */
+  }
+}
+
+/* Medium Devices (Tablets) */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .navbar-logo {
+    margin-left: 10px;
+    /* Adjusted margin for tablets */
+  }
+}
+
+/* Large Devices (Desktops) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .navbar-logo {
+    margin-left: 50px;
+    /* Adjusted margin for small desktops */
+  }
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media only screen and (min-width: 1025px) {
+  .navbar-logo {
+    margin-left: 110px;
+    /* Adjusted margin for large desktops */
+  }
+}

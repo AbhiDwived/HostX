@@ -1,0 +1,63 @@
+.custom-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .Otherservices-container{
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .Otherservices-container h1{
+    /* margin-bottom: 90px; */
+    color: red;
+  }
+
+  .Otherservices-container h3{
+    margin-top: 0px;
+  }
+
+  .blue-tick {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-right: 5px;
+  }
+
+  .blue {
+    color:  #224d18
+    
+  }
+
+  .Seoservice-container{
+    background-color:#eeefee;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+
+  .high-perfor-container {
+    border: 2px solid black; 
+    padding: 20px; 
+  }
+
+  .Marketing-container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+  }
+
+  .custom-button {
+    display: inline-block;
+    padding: 10px 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #202736;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #f8f5f3;
+    color: #000000;
+  }

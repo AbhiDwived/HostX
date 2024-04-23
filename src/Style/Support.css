@@ -1,0 +1,11 @@
+.accordion-button.align-items-end {
+    flex-direction: row-reverse;
+  }
+  
+  .accordion-button.align-items-end > .d-flex {
+    width: 100%;
+  }
+  
+  .accordion-button::after {
+    content: none; /* Remove the default arrow */
+  }  

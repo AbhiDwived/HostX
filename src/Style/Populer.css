@@ -1,0 +1,29 @@
+.container-fluid{
+    background-color: rgb(243, 244, 239);
+}
+
+.container-fluid p{
+margin:0;
+}
+
+.container-fluid h5{
+    margin:0;
+    }
+
+
+.title{
+    text-decoration: underline;
+}
+
+.bg-colored {
+    background-color: #387c29;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bg-coloredhosting  {
+    background-color: #8dbc81;
+    color: #fff;
+    padding: 10px;
+  }

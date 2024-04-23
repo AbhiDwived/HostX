@@ -1,0 +1,142 @@
+.popup{
+  /* position: relative; */
+  position: fixed;
+  top:110px;
+  height: 720px;
+  width: 600px;
+  box-shadow: 1px 1px 1px 1px green;
+  background: white;
+  padding: 10px;
+ /* backdrop-filter: saturate(180%) blur(25px);*/
+}
+.popup1{
+  position: fixed;
+  
+}
+.popup ul{
+  /* background-color: rgb(215, 202, 202); */
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  
+}
+.popup ul li{
+  list-style: none;
+  font: normal normal 500 16px/ orbitron;
+  cursor: pointer;
+  padding: 7px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+}
+.content{
+  display: none;
+}
+.show-content{
+  display: block;
+}
+.btnclose{
+  padding-right:5px ;
+}
+
+.popup-img img{
+  justify-content: center;
+  
+}
+.popup1-img img{
+  justify-content: center;
+}
+.popup1-img{
+  height: 100px;
+  width: 100px;
+  background: antiquewhite;
+  justify-content: center;
+  text-align: center;
+}
+.popup-img .col-lg-3{
+  padding-top: 20px;
+  width: 120px;
+  height: 100px;
+}
+.popup-head1{
+  margin-left: 10px;
+}
+
+.recom{
+  margin-top: 18px;
+  padding-left:2px;
+}
+.recom-main:hover{
+  background-color: antiquewhite;
+}
+.recom h{
+  font: normal normal 600 16px/1.5 roboto;
+  color: var(--text-gray);
+}
+.compute{
+  padding-left:2px;
+}
+.compute-main{
+  padding-top: 10px;
+}
+.compute-main:hover{
+  background-color: antiquewhite;
+}
+.compute h{
+  font: normal normal 600 16px/1.5 roboto;
+  color: var(--text-gray);
+}
+.compute-style .col-lg-6{
+  width: 280px;
+}
+.popup2-col{
+  text-align: center;
+}
+.popup2-col:hover{
+  background: antiquewhite;
+}
+.popup ul li:hover{
+  background:antiquewhite;
+  border-radius: 15px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .popup {
+    width: 90%;
+     
+  }
+  
+  /* Add additional responsive styles as needed */
+}
+@media only screen and (min-width: 460px) and (max-width:578px){
+  .popup {
+    position: fixed;
+    top:125px;
+  }
+}
+@media only screen and (min-width: 578px) and (max-width:768px){
+  .popup {
+    position: fixed;
+    top:110px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:1400px){
+  .popup {
+    position: fixed;
+    top:135px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .popup {
+    width: 100%;
+    overflow-y: auto;
+    position: fixed;
+    top:120px;
+  }
+  .popup1-img {
+    width: 80%;
+    height: 80px;
+  }
+  
+  /* Add additional responsive styles as needed */
+}

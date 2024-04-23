@@ -1,0 +1,67 @@
+.icon-style {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(0, 8, 255);
+  background-color: #fff;
+  padding: 20px;
+}
+
+.icon-style:hover {
+  margin-bottom: 10px;
+  font-size: 24px;
+  border-radius: 50%;
+  color: rgb(0, 8, 255);
+  background-color: #fff;
+  padding: 20px;
+}
+
+.bold-text {
+  font-size: 24px;
+  font-weight: 800;
+  ;
+  color: #fff;
+}
+
+.Style-btn {
+  background-color: #8dbc81;
+  margin: 0 1px;
+  color: #fff;
+}
+
+.FeaturesIncluded-container {
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+}
+
+.Features-container{
+  background-color: rgb(217, 215, 215);
+  padding-top: 50px;
+}
+
+.Features-container h2{
+color: red;
+}
+
+.bold-number {
+  font-weight: bold;
+}
+
+.features-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+  .FeaturesIncluded-container .col-12 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .features-buttons {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 5px; 
+  }
+  
+}

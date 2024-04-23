@@ -1,0 +1,77 @@
+.header {
+  margin: 0;
+  background-color: #202736;
+  color: white;
+  padding: 10px;
+  font-family: orbitron;
+}
+
+.title {
+  font-size: 14px;
+  justify-content: flex-start;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+.contact {
+  font-size: 14px;
+  margin-right: 20px; 
+}
+
+.email {
+  margin-left: 20px;
+} 
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
+.social-icons i {
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+
+ @media only screen and (min-width: 100px) and (max-width: 480px) {
+  .title{
+    display: none;
+  }
+  
+  .contact{
+    font-size: 14px;
+  
+  }
+  .email{
+    display: none;
+  }
+
+  .social-icons {
+    font-size: 16px;
+    
+  }
+  .social-icons i {
+    margin-right: 20px;
+  }
+  
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .title{
+    display: none;
+  }
+  .email{
+    display: none;
+  }
+  .contact,
+  .social-icons {
+    font-size: 16px;
+    margin: 10;
+  }
+
+}
+
+
+
+

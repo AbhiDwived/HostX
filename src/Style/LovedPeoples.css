@@ -1,0 +1,36 @@
+.home-container {
+  position: relative;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.slider-indicators-container {
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider-indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-indicator {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  margin-bottom: 0;
+  border-radius: 50%;
+  border: 1px solid #fff; /* Add border for better visibility */
+  background-color: #ccc; /* Inactive color */
+}
+
+.slider-indicator.active {
+  width: 20px;
+  height: 10px;
+  background-color: #333; /* Active color */
+  border-radius: 5px; /* Change to rectangular shape */
+}

@@ -1,0 +1,27 @@
+/* h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  } */
+ 
+.card-img-top {
+    width: 60px; /* Set a fixed width (adjust as needed) */
+    height: 40px; /* Maintain the aspect ratio */
+    margin-bottom: 30px;
+  }
+
+  .card-body p {
+    color: #333; /* Set your desired text color (adjust as needed) */
+    margin-bottom: 20px;
+  }
+
+  .container h1 {
+    margin-bottom: 80px; /* Adjust the margin as needed */
+  }
+
+  .card-body h6{
+    margin: 10px;
+  }
+
+  .footer-container p {
+    color: #fdfbfb; /* Set your desired text color (adjust as needed) */
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,41 @@
+.services-container-fluid {
+  background: #224d18;
+}
+
+.services-container-fluid h1 {
+  color: red;
+}
+
+.services-container-fluid h3 {
+  color: #224d18;
+}
+
+.services-container-fluid p {
+  color: #000;
+}
+
+.service-card {
+  width: 300px;
+  color: #000;
+}
+
+.services-card p.my-3 {
+  margin: 1.5rem 0;
+}
+
+.services-card img {
+  height: 50px;
+}
+
+/* Media queries for responsive design */
+
+/* Small screens */
+@media screen and (max-width: 350px) {
+  .service-card {
+      width: 100% /* Adjust width to fit smaller screens */
+  }
+
+  .services-card img {
+      height: 30px; /* Adjust image height for smaller screens */
+  }
+}

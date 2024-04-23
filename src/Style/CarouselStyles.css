@@ -1,0 +1,127 @@
+/* General styles for carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #fdfcfc;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: #a8f1d9;
+}
+
+
+
+
+/* Button styles */
+
+.home-container {
+  position: relative;
+}
+
+.features-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  /* Adjust as needed */
+  margin-bottom: 50px;
+}
+
+.features-button {
+   position: relative;
+  background-color: #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin: 2px;
+  color: #000;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.features-button.active,
+.features-button:hover {
+  background-color: #224d18;
+  color: #fff;
+}
+
+.features-button.active::before,
+.features-button:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  border-width: 15px 15px 0px;
+  border-style: solid;
+  border-color: transparent transparent #224d18;
+}
+
+.features-button.active:hover::before {
+  border-color: #fff transparent transparent transparent;
+
+}
+
+
+.slider-buttons {
+  display: flex;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.slider-button {
+  margin: 0.08px;
+  padding: 15px 5px;
+  width: 180px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background-color: white;
+}
+
+.slider-button.active,
+.slider-button:hover {
+  background-color: #327f21;
+  color: #fff;
+}
+
+.slider-button.active::before,
+.slider-button:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  border-width: 0 15px 15px;
+  border-style: solid;
+  border-color: transparent transparent #327f21;
+}
+
+.slider-button.active:hover::before {
+  border-color: #fff transparent transparent transparent;
+  /* Adjust the color as needed */
+
+}
+
+
+@media only screen and (min-width: 1px) and (max-width: 900px){
+  .slider-button  {
+    display: none; /* Hide the title in mobile view */
+  }
+}
+
+@media only screen and (min-width: 900px){
+  .slider-button  {
+    display: inline; /* Hide the title in mobile view */
+  }
+}

@@ -1,0 +1,754 @@
+  /* General styles for Header */
+
+.header {
+    margin: 0;
+    background-color: #202736;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 14px;
+    margin-left: 150px;
+    margin-right: 20px;
+  }
+  
+  .contact {
+    margin-left: 20px; /* Adjusted margin to create space */
+    margin-right: 20px; /* Adjusted margin to create space */
+  }
+  
+  .email {
+    margin-left: 20px;
+  } 
+  
+  .social-icons {
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-icons i {
+    margin-right: 28px;
+    font-size: 14px;
+  }
+  
+  /* Responsive Media Queries */
+  
+  /* Mobile Devices */
+  @media only screen and (max-width: 600px) {
+    .title {
+      display: none; /* Hide the title in mobile view */
+    }
+    
+    .email {
+      display: none; /* Hide the title in mobile view */
+    }
+    
+    .social-icons {
+        margin-right: 10px;
+    }
+  
+    .contact {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
+  
+  /* Tablet Devices */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .title {
+      display: none; /* Hide the title in mobile view */
+    }
+  
+    .email {
+      display: none; /* Hide the title in mobile view */
+    }
+  
+    .contact {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  
+  /* Small Desktops */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .title {
+      margin-left: 100px;
+      display: inline; /* Revert display for small desktop view if needed */
+    }
+    
+    .social-icons {
+        margin-right: 100px;
+    }
+  
+    .contact {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  
+  /* Large Desktops */
+  @media only screen and (min-width: 1025px) {
+    .title {
+      margin-left: 150px;
+      display: inline; /* Revert display for large desktop view if needed */
+    }
+  
+    .social-icons {
+      margin-right: 200px;
+    }
+  
+    .contact {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+
+
+
+
+
+
+  /* General styles for Navbar */
+
+.navbar {
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    /* Change to your preferred background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    margin-left: 150px;
+    max-height: 50px;
+    width: auto;
+    display: block;
+  }
+  
+  .navbar-brand h2 {
+    margin-left: 370px;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+    /* Adjust spacing between nav items */
+  }
+  
+  .nav-link{
+    margin-left: 20px;
+  }
+
+  .dropdown-menu {
+    background-color: #fff;
+    /* Change to your preferred background color */
+  }
+  
+  .navbar-text {
+    margin-right: 225px;
+    /* Adjust spacing between text and icon */
+  }
+  
+  .fa-bars {
+    margin-left: 10px;
+    margin-right: 10px;
+    /* Adjust spacing between bars icon and text */
+  }
+  
+  /* Responsive Media Queries */
+  
+  /* Small Devices (Phones) */
+  @media only screen and (max-width: 480px) {
+  
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .navbar-logo {
+        margin: 15px 0; /* Adjusted margin for spacing in mobile view */
+    }
+  
+    .navbar-brand h2,
+    .navbar-nav .nav-item,
+    .navbar-text,
+    .fa-bars {
+        margin: 0; /* Remove margins for better stacking in mobile view */
+    }
+  }
+  
+  /* Medium Devices (Tablets) */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar-logo {
+        margin-left: 15px; /* Adjusted margin for tablets */
+    }
+  }
+  
+  /* Large Devices (Desktops) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .navbar-logo {
+        margin-left: 100px; /* Adjusted margin for small desktops */
+    }
+  }
+  
+  /* Extra Large Devices (Large Desktops) */
+  @media only screen and (min-width: 1025px) {
+    .navbar-logo {
+        margin-left: 150px; /* Adjusted margin for large desktops */
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* General styles for carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #fdfcfc;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: #a8f1d9;
+}
+
+
+
+
+/* Button styles */
+
+.home-container {
+  position: relative;
+}
+
+.features-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  /* Adjust as needed */
+  margin-bottom: 50px;
+}
+
+.features-button {
+   position: relative;
+  background-color: #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin: 2px;
+  color: #000;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.features-button.active,
+.features-button:hover {
+  background-color: #224d18;
+  color: #fff;
+}
+
+.features-button.active::before,
+.features-button:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  border-width: 15px 15px 0px;
+  border-style: solid;
+  border-color: transparent transparent #224d18;
+}
+
+.features-button.active:hover::before {
+  border-color: #fff transparent transparent transparent;
+
+}
+
+.slider-button {
+  padding: 10px 15px;
+}
+
+.slider-buttons {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.slider-button {
+  margin: 0.08px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background-color: white;
+}
+
+.slider-button.active,
+.slider-button:hover {
+  background-color: #327f21;
+  color: #fff;
+}
+
+.slider-button.active::before,
+.slider-button:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  border-width: 0 15px 15px;
+  border-style: solid;
+  border-color: transparent transparent #327f21;
+}
+
+.slider-button.active:hover::before {
+  border-color: #fff transparent transparent transparent;
+  /* Adjust the color as needed */
+
+}
+
+
+@media only screen and (min-width: 1px) and (max-width: 900px){
+  .slider-button  {
+    display: none; /* Hide the title in mobile view */
+  }
+}
+
+@media only screen and (min-width: 900px){
+  .slider-button  {
+    display: inline; /* Hide the title in mobile view */
+  }
+}
+
+
+
+
+
+
+
+
+/* General styles for PopulerPricing */
+.populer-container {
+    position: relative;
+    background-color:  rgb(243, 244, 239);
+    padding: 50px;
+  }
+  
+.text-center h1{
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+  .carousel-inner {
+    text-align: center;
+  }
+  
+  .slider-indi-container {
+    position: absolute;
+    
+    bottom: 0px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slider-indicators {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slider-indicator {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    margin-bottom: 0;
+    border-radius: 50%;
+    border: 1px solid #fff; /* Add border for better visibility */
+    background-color: #ccc; /* Inactive color */
+  }
+  
+  .slider-indicator.active {
+    width: 20px;
+    height: 10px;
+    background-color: #333; /* Active color */
+    border-radius: 5px; /* Change to rectangular shape */
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* General styles for DomainFeatures */
+.card-img-top {
+    width: 60px; /* Set a fixed width (adjust as needed) */
+    height: 40px; /* Maintain the aspect ratio */
+    margin-bottom: 30px;
+  }
+
+  .card-body p {
+    color: #333; /* Set your desired text color (adjust as needed) */
+    margin-bottom: 20px;
+  }
+
+  .container h1 {
+    margin-bottom: 80px; /* Adjust the margin as needed */
+  }
+
+  .card-body h6{
+    margin: 10px;
+  }
+
+  .footer-container p {
+    color: #fdfbfb; /* Set your desired text color (adjust as needed) */
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+
+
+  /* General styles for Newsletter */
+
+  .custom-container {
+    background-color:#224d18; /* Replace with your desired background color */
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+    /* Add padding if needed */
+  }
+
+  .Otherservices-container{
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .Otherservices-container h2{
+    margin-bottom: 90px;
+  }
+
+  .Otherservices-container h3{
+    margin-top: 0px;
+  }
+
+  .blue-tick {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-right: 5px;
+  }
+
+  .blue {
+    color:  #224d18
+    
+  }
+
+  .Seoservice-container{
+    background-color:#eeefee;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+
+  .high-perfor-container {
+    border: 2px solid black; /* Add a black border to the container */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .Marketing-container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ /* General styles for FeaturesIncluded  */
+ .icon-style {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: rgb(0, 8, 255);
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .icon-style:hover {
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    color: rgb(0, 8, 255);
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .bold-text {
+    font-size: 24px;
+    font-weight: 800;
+    ;
+    color: #fff;
+  }
+  
+  .Style-btn {
+    background-color: #8dbc81;
+    margin: 0 1px;
+    color: #fff;
+  }
+  
+  .FeaturesIncluded-container {
+    background-color: #333;
+    color: #fff;
+    padding: 70px;
+  }
+  
+  .Features-container{
+    background-color: rgb(217, 215, 215);
+    padding: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+   /* General styles for LovedPeoples  */
+   .home-container {
+    position: relative;
+  }
+  
+  .carousel-inner {
+    text-align: center;
+  }
+  
+  .slider-indicators-container {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slider-indicators {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slider-indicator {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    margin-bottom: 0;
+    border-radius: 50%;
+    border: 1px solid #fff; /* Add border for better visibility */
+    background-color: #ccc; /* Inactive color */
+  }
+  
+  .slider-indicator.active {
+    width: 20px;
+    height: 10px;
+    background-color: #333; /* Active color */
+    border-radius: 5px; /* Change to rectangular shape */
+  }
+
+
+
+
+
+
+
+
+
+
+   /* General styles for Bottom  */
+
+   h5, h6 {
+    font-weight: bold;
+    color: white;
+  }
+
+  .background {
+    background-color: #224d18; /* Change this to the desired dark color */
+    color: #fff; /* Change this to the desired text color */
+  }
+  
+  .Button-container{
+    color: #fff;
+  }
+
+.btn-primary {
+    background-color: #427b36;;
+    color: #fff;
+    border: #224d18;
+  }
+  
+  .btn-primary:hover {
+    background-color: #f8f5f3;
+    color: #000000;
+  }
+
+.New-button{
+  color: #fff;
+  margin: 0;
+  padding: 5px 75px;
+  background-color: #202736;
+}
+
+.New-button:hover {
+  background-color: #f8f5f3;
+  color: #000000;
+}
+
+.card-container p {
+  color: white; /* Change text color to white */
+  margin: 0;
+}
+
+.icon {
+  color: white;
+  margin-right: 15px;
+}
+  .list-unstyled li {
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: rgba(184, 179, 179, 0.883);
+    font-size: 16px;
+  }
+
+  .list-unstyled h5 {
+    margin-bottom: 5px;
+    text-decoration: underline;
+  }
+
+  .payment-methods{
+    width: 150px; /* Set a fixed width (adjust as needed) */
+    height: 20px; /* Maintain the aspect ratio */
+    margin-left:20px;
+    margin-bottom: 15px;
+    
+  }
+
+  @media (max-width: 576px) {
+  /* Small devices (phones) */
+  .btn-size {
+    margin-left: 0; /* Adjust margin for smaller screens */
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .custom-button {
+    padding: 5px 30px; /* Adjust padding for smaller screens */
+  }
+
+  .payment-methods {
+    margin-left: 0; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Medium devices (tablets) */
+  .btn-size {
+    margin-left: 20px; /* Adjust margin for medium screens */
+    padding: 10px 40px; /* Adjust padding for medium screens */
+  }
+
+  .custom-button {
+    padding: 5px 60px; /* Adjust padding for medium screens */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Large devices (desktops) */
+  .btn-size {
+    margin-left: 40px; /* Adjust margin for large screens */
+  }
+
+  .custom-button {
+    padding: 5px 60px; /* Adjust padding for large screens */
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Extra large devices (large desktops) */
+  .btn-size {
+    margin-left: 80px; /* Adjust margin for extra-large screens */
+  }
+
+  .custom-button {
+    padding: 5px 80px; /* Adjust padding for extra-large screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* General styles for Footer  */
+.payment-img {
+    margin-left: 20px;
+    width: 150px; /* Set a fixed width (adjust as needed) */
+    height: 20px; /* Maintain the aspect ratio */
+    margin: 10px;
+  }
+  .footer-part1{
+    padding: 15px;
+    
+    color: #fff;
+  }
+
+  .footer-part2{
+    color: #fff;
+    font-weight: bold;
+  }
+
+  

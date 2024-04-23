@@ -1,0 +1,112 @@
+/* Base styles for all screen sizes */
+.shared-hosting-container,
+.video-slider-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: #224d18; */
+  color: #000;
+}
+
+.shared-hosting-container,
+.video-slider-container,
+.shared-container h1,
+.shared-container h2,
+.shared-container p {
+  text-align: left;
+}
+
+.shared-container p {
+  font-size: 20px;
+}
+
+.shared-container h1 {
+  color: #2aba09;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #202736;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #f8f5f3;
+  color: #000000;
+}
+
+.content-left {
+  text-align: left;
+}
+
+.custom-image {
+  width: 100%;
+  height: auto;
+}
+
+
+/* @media only screen and (min-width: 480px) {
+  .custom-image {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .custom-image {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .custom-image {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .custom-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .custom-image {
+    width: 40%;
+  }
+} */
+
+
+/* @media only screen and (min-width: 300px) and (max-width: 430px) {
+  .custom{
+      height: 1080px; 
+   }
+}
+
+ @media only screen and (min-width: 431px) and (max-width: 576px) {
+  .custom{
+    padding: 5px;
+      height: 920px; 
+   } 
+}
+
+
+@media only screen and (min-width: 577px) and (max-width:665px) {
+  .custom{
+    padding: 5px;
+      height: 840px; 
+   } 
+} */
+/*
+@media only screen and (min-width: 1100px) and (max-width:1299px) {
+  .custom-col{
+     height: 500px; 
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .custom-col{
+      height: 450px;
+  }
+} */

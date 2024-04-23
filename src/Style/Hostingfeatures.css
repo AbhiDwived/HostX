@@ -1,0 +1,58 @@
+.HostingFeaturesr-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+
+.custom-col {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-height: fit-content;
+    border: 2px solid gray;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Updated alignment property */
+}
+
+
+
+  .Hosting-container h2{
+    color: #224d18;
+}
+
+.Features-container h1{
+    color: red;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 370px) {
+    .custom-col{
+        height: 1050px; 
+     }
+}
+
+@media only screen and (min-width: 371px) and (max-width: 576px) {
+    .custom-col{
+        height: 860px; 
+     } 
+}
+
+@media only screen and (min-width: 577px) and (max-width: 665px) {
+    .custom-col{
+        height: 800px; 
+     } 
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1299px) {
+    .custom-col{
+       height: 500px; 
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .custom-col{
+        height: 450px;
+    }
+}

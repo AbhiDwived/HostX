@@ -1,0 +1,19 @@
+.payment-img {
+    width: 150px; 
+    height: 20px; 
+   margin-left: 20px;
+  }
+  .footer-part1{
+    color: #fff;
+  }
+
+  .footer-part2{
+    color: #fff;
+    font-weight: bold;
+  }
+
+  @media (max-width: 576px) {
+  .footer-part1{
+    display: none;
+  }
+  }
